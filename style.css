@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.music-player {
+    height: 60vh;
+    width: 40vh;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: inset 5px 5px 20px rgba(192, 192, 192, 0.8) ;
+}
+img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 10px 5px 20px black;
+    transform: rotate(360deg) ;
+    transition-duration: infinite;
+}
+
+.controls button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: inset 5px 5px 10px white ;
+}
+
+.controls button:hover {
+    background: #0056b3;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%; 
+    box-shadow: 10px 5px 20px black ;
+}
+
+#fileInput{
+    height: 30px;
+    width: 40%;
+    cursor: pointer;
+}
